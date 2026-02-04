@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import { ProjectConfig, createDefaultConfig } from './model/ProjectConfig'
 import ConfigForm, { SectionId, DEFAULT_EXPANDED, ALL_SECTIONS } from './ui/ConfigForm'
 import PreviewPanel from './ui/PreviewPanel'
@@ -135,6 +136,7 @@ function App() {
       <footer className="footer">
         <span style={{ fontFamily: "'Furore', sans-serif", fontWeight: 400 }}>AutoTCS</span> v1.0
       </footer>
+      <Analytics />
     </div>
   )
 }
