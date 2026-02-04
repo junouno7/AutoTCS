@@ -1,3 +1,2 @@
-In the autoTCS folder are 4 different example scripts for 4 different customer sites. These scripts are written in a language called chillang which is based on C. These scripts are the driving logic script for an AMR robot. The scripts are paired with a dashboard UI which is shown on a tablet on the robot and when the user clicks buttons on the dashboard, it will trigger certain flags or system functions.  My plan is to make a web app that automatically generates these scripts based on user specified requirements. Someone with zero coding knowledge should be able to check off boxes of requirements or modify requirements to automaticallly generate a working TCS script. The app should also explain how the dashboard should be configured and what buttons should trigger which flags or functions and so forth. Basically I need an interactive TCS script and dashboard planner so a beginner can customize the script and dashboard for a new site. 
-
+autotcs
 
