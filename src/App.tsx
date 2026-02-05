@@ -101,7 +101,7 @@ function App() {
               <span style={{ color: 'var(--text-secondary)', marginRight: '0.05rem' }}>
                 {allExpanded ? '▲' : '▼'}
               </span>
-              {allExpanded ? '모두 접기' : '모두 펼치기'}
+              {allExpanded ? '모두 접기' : '모두 펴기'}
             </button>
           </div>
         )}
